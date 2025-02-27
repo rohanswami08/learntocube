@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to Cube - F2L</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="navbar">
+            <a href="index.html" class="navbar-element">Home</a>
+            <a href="basic.html" class="navbar-element">Basic Info</a>
+            <a href="beginner.html" class="navbar-element">Beginner Tutorial</a>
+            <div class="cfop-div">
+                <a href="cfop.html" class="navbar-element" id="cfop-btn">CFOP</a>
+                <div id="cfop-list-div">
+                    <ul class="cfop-ul">
+                        <li><a href="cross.html" class="cfop-element">Cross</a></li>
+                        <li><a href="f2l.html" class="cfop-element" style="background-color: darkgray;">F2L</a></li>
+                        <li><a href="oll.html" class="cfop-element">OLL</a></li>
+                        <li><a href="pll.html" class="cfop-element">PLL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="4x4.html" class="navbar-element">4x4 Tutorial</a>
+        </div>
+        <div class="dropdown">
+            <a id="dropdown-btn">Menu</a>
+            <div id="dropdown-content">
+                <a href="index.html" class="dropdown-element">Home</a>
+                <a href="basic.html" class="dropdown-element">Basic Info</a>
+                <a href="beginner.html" class="dropdown-element">Beginner Tutorial</a>
+                <a href="cfop.html" class="dropdown-element">CFOP</a>
+                <a href="4x4.html" class="dropdown-element">4x4 Tutorial</a>
+            </div>
+
+            <script src="dropdown.js"></script>
+        </div>
+
+        <div class="content">
+            <h1>F2L (First 2 Layers)</h1>
+            <h2>F2L is the second step of the CFOP method that solves the first layer corners and the second layer edges
+                simultaneously.</h2>
+            <p>Using beginner F2L, there are usually 3 steps to each pair: bring both pieces to the top layer separated,
+                pair them up, then insert the pair.</p>
+            <p>Note: in the pictures in this section, the blue squares on the cube are irrelevant to the step and are
+                meant to be ignored.</p>
+            
+            <h2>F2L Tutorial</h2>
+            <div class="tutorial">
+                <h3>Special case: pieces need to be separated</h3>
+                <div class="row-vertical">
+                    <div class="row-element">
+                        <img src="Images/F2L/separate-pieces1.png" alt="" class="cube-image">
+                        <img src="Images/F2L/separate-pieces2.png" alt="" class="cube-image">
+                        <img src="Images/F2L/separate-pieces3.png" alt="" class="cube-image">
+                        <img src="Images/F2L/separate-pieces4.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        If you see that the two F2L pieces are stuck together and aren't paired up, then the steps below
+                        won't work; you need to separate them first. Above is an example of how you can separate them. Once
+                        you have, you can pair them up using the steps above.
+                    </div>
+                </div>
+
+                <h3>Step 1: Get both pieces in the top layer</h3>
+                <div class="row">
+                    <div class="row-element">
+                        <img src="Images/F2L/pieces-in-top-layer.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        After finishing the cross, the first step to solving an F2L pair is to get both pieces in the
+                        top layer. For example, if you were working on the red-green pair, you want to get the
+                        red-green-white corner piece and the red-green edge piece into the top layer. You can use right-
+                        or left-hand algorithms for this step. If you come across the case where the two pieces are
+                        stuck together, go <a href="#separate" class="link">here</a>.
+                    </div>
+                </div>
+
+                <h3>Step 2: Pair them up</h3>
+                <div class="row">
+                    <div class="row-element">
+                        <img src="Images/F2L/corner-in-the-right-spot.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        <h4>Case 1: White sticker is on the side</h4>
+                        If the white sticker of the corner piece is not on the side (is on top of the cube), go to case 2.
+                        If the white sticker is on the side of the corner piece, start by moving the corner in between
+                        the two corresponding center pieces (like you did in the beginner method). If the corner is on
+                        top, then go to that step. Use either a U or U' move to put the corner somewhere else <b>where
+                            you can still see the white sticker</b>.
+                    </div>
+                </div>
+
+                <div class="row-vertical">
+                    <div class="row-element">
+                        <b>Case 1a:</b> Look at the colors <b>facing up</b> on the corner and edge. If the colors are the
+                        same, the edge needs to go next to the corner. If this case doesn't apply to you, go to case B.
+                        To move the edge to its correct spot, "hide" the corner. If the corner is on the right, hide it
+                        like in the first picture below. If it's on the left, hide it like in the second picture.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/first-pair1.png" alt="" class="cube-image">
+                        <img src="Images/F2L/first-pair2.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <div class="row-vertical">
+                    <div class="row-element">
+                        Once you've hidden the corner, use U moves to move the edge next to the corner. Then bring the
+                        corner back from where you "hid" it.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/first-pair3.png" alt="" class="cube-image">
+                        <img src="Images/F2L/first-pair4.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <div class="row-vertical">
+                    <div class="row-element">
+                        <b>Case 1b:</b> If the colors facing up on the two pieces are different, the edge needs to go in the
+                        slot opposite the corner. To move the edge to its correct spot, "hide" the corner as described in
+                        Case A. Then move the edge to the slot opposite the corner, and bring the corner back.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/second-pair1.png" alt="" class="cube-image">
+                        <img src="Images/F2L/second-pair2.png" alt="" class="cube-image">
+                        <img src="Images/F2L/second-pair3.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row-element">
+                        <img src="Images/F2L/third-pair1.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        <h4>Case 2: White sticker is on the top</h4>
+                        If the white sticker is on top (facing up), then you need to pair it up a different way. Start
+                        by aligning the edge piece with its corresponding center piece.
+                    </div>
+                </div>
+
+                <div class="row-vertical">
+                    <div class="row-element">
+                        "Hide" the edge by moving it away. To do this, hold the two center pieces of the pair you're
+                        doing in front of you (ex. if you're doing the red-green pair, hold the red and green centers in
+                        front of you). Then move the edge away. If the edge is on the right, hide it like in the first
+                        picture below. If it's on the left, hide it like in the second picture.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/third-pair2.png" alt="" class="cube-image">
+                        <img src="Images/F2L/third-pair3.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row-element">
+                        <img src="Images/F2L/third-pair4.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        Next, move the corner on top of the edge that you "hid".
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row-element">
+                        <img src="Images/F2L/third-pair5.png" alt="" class="cube-image">
+                    </div>
+                    <div class="row-element">
+                        Finally, undo the move that you did to "hide" the edge, and the pieces should be paired up.
+                    </div>
+                </div>
+
+                <h3>Step 3: Insert the pair</h3>
+                <div class="row">
+                    <div class="row-element">
+                        There are four ways a pair may be paired up. The pieces might be touching each other, or they
+                        might not. For each of those cases, there is a right-hand and left-hand version. Below are the
+                        four ways to insert a pair based on the case you have. Look for your case and follow the steps.
+                    </div>
+                </div>
+
+                <h4>Pieces touching: right version</h4>
+                <div class="row-vertical">
+                    <div class="row-element">
+                        If the pieces are touching, and they look like the first image below, then start by moving the
+                        pair to the position in the second image below (relative to the two corresponding centers).
+                        Next, bring the right side up (R). Then, connect the pair with the cross edge (U'). Finally,
+                        move the cross edge down (R'), and the pair is inserted.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/insert1a.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert1b.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert1c.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert1d.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert1e.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <h4>Pieces touching: left-hand version</h4>
+                <div class="row-vertical">
+                    <div class="row-element">
+                        If the pieces are touching, and they look like the first image below, then start by moving the
+                        pair to the position in the second image below (relative to the two corresponding centers).
+                        Next, bring the left side up (L'). Then, connect the pair with the cross edge (U). Finally, move
+                        the cross edge down (L), and the pair is inserted.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/insert2a.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert2b.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert2c.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert2d.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert2e.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <h4>Pieces not touching: right-hand version</h4>
+                <div class="row-vertical">
+                    <div class="row-element">
+                        If the pieces are not touching, and they look like the first image below, then align the corner
+                        with its two corresponding center pieces (just like in the beginner method), and just insert the
+                        corner with a right-hand algorithm (R U R' U', although the last U' is unnecessary)! This will
+                        insert both the corner and the edge.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/insert3a.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert3b.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert3c.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert3d.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert3e.png" alt="" class="cube-image">
+                    </div>
+                </div>
+
+                <h4>Pieces not touching: left-hand version</h4>
+                <div class="row-vertical">
+                    <div class="row-element">
+                        If the pieces are not touching, and they look like the first image below, then align the corner
+                        with its two corresponding center pieces (just like in the beginner method), and just insert the
+                        corner with a left-hand algorithm (L' U' L U, although the last U is unnecessary)! This will
+                        insert both the corner and the edge.
+                    </div>
+                    <div class="row-element">
+                        <img src="Images/F2L/insert4a.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert4b.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert4c.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert4d.png" alt="" class="cube-image">
+                        <img src="Images/F2L/insert4e.png" alt="" class="cube-image">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <a href="OLL.html" class="button-link">Next: OLL</a>
+        </div>
+    </div>
+</body>
+
+</html>
