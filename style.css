@@ -129,14 +129,15 @@ h3 {
 .button-link {
     transition: all 300ms;
     text-decoration: none;
-    color: blue;
+    color: black;
+    border-bottom: 3px solid transparent;
     background-color: transparent;
     outline: none;
     padding: 10px;
     margin: 5px;
 }
 .button-link:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid black;
 }
 
 .cube-image {
